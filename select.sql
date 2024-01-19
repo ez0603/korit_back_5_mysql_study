@@ -3,7 +3,7 @@ select * from student_tb;
 
 select  # from = student_tb에 있는 student_id,name을 꺼냄, where = student_id가 1인 것을 선택, (3.select, 1.from ,2.where -> 컴퓨터가 찾아오는 순서)
 	student_id, # 컬럼은 한줄에 무조건 하나
-	name,
+	name,student_id
     age
 from 
 	student_tb 
@@ -100,7 +100,7 @@ having # 3번 where과 비슷하지만 having = 그룹화 한 뒤
 order by # 5번 -> 뽑아놓고 결과를 정렬하기 때문에 마지막
 	address_count, # 오름차순으로 정렬 
     address desc; # 주소를 내림차순
-	#address_count desc; # 내림차순으로 정렬
+	#address_count desc; # 내림차순으로 정렬product_tbproduct_tb
     
 
 	
