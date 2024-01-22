@@ -11,7 +11,7 @@ where
     
 update product_color_tb # from table
 set
-	product_color_name_kor = case 
+	product_color_name_kor = case book_tb
     when producr_color_name = 'Black' then '블랙'
     when producr_color_name = 'White' then '화이트'
     when producr_color_name = 'Green' then '그린'
