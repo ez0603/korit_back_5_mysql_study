@@ -23,6 +23,5 @@ from
 		brt.book_id,
 		bt.author_id,
 		bt.publisher_id) temp_book_register_tb
-		bt.publisher_id) temp_book_register_tb
 where 
 	temp_book_register_tb.row_num = 1; # row_num이 1 인것을 조회 (ex-인기순위)
