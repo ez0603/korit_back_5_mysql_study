@@ -1,0 +1,12 @@
+CREATE 
+VIEW `USER_VIEW` AS 
+select
+    `USER_ID`,
+    `USERNAME`,
+    `PASSWORD`,
+    `NAME`,
+    `EMAIL`
+FROM
+    `USER_TB`;
+WEHRE
+    `USER_ID` BETWEEN 1 AND 200;

@@ -1,3 +1,4 @@
+# 변수지정
 set @book_name = '혼자 공부하는 SQL';
 set @author = '우재남';
 set @publisher = '한빛미디어';
